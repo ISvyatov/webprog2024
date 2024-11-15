@@ -1,0 +1,78 @@
+
+.Main_content {
+    display: flex; 
+    flex-direction: column;
+    background: white;
+    width: 360px;
+    height: 168px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-top: none;
+    border-bottom: none;
+    margin-bottom: none;
+}
+
+
+.Primary_content{
+
+  width: 328px;
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  margin: 16px;
+  justify-content: center;
+  align-items: center;
+  background: white;
+
+
+} 
+
+.Content_information{
+    width: 268px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    font-weight: 600; /* Makes the text semi-bold */
+    font-size: 20px;  
+}
+
+.Content_price{
+    width: 41px;
+    height: 32px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 19px;
+    display: flex;
+    align-items: center;
+}
+
+.Description{
+    margin-left: 16px;
+    margin-bottom: 16px;
+    width: 328px;
+    height: 48px;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(60, 64, 66, 1); 
+}
+
+.Rating{
+    display: flex;
+    flex-direction: row;
+    width: 328px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 16px;
+    height: 24px;
+  
+}
+
+.Rating_score{
+    margin-left: 4px;
+}
+
+.Rating_shadow{
+    margin-left: 4px;
+    font-weight: 400;
+    color: rgba(85, 89, 94, 1);
+}

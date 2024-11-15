@@ -1,0 +1,80 @@
+.footer_actions{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 360px;
+    height: 72px;
+    border: 1px solid black;
+    border-top: none;
+    border-bottom-left-radius: 19px;
+    border-bottom-right-radius: 19px;
+    /* justify-items: center; */
+    justify-content: center;
+    align-items: center;
+    font-family: Avenir Next, Helvetica, sans-serif;
+}
+
+.button_1_btn{
+    display: flex;
+    flex-direction: row;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 160px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    padding: none;
+}
+
+.label_text_watchlist{
+    margin-left: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Avenir Next, Helvetica, sans-serif;
+}
+
+.eye{
+    margin-right: 8px;
+}
+
+.btn_2{
+    display: flex;
+    flex-direction: row;
+    width: 160px;
+    height: 40px;
+    padding: none;
+    text-decoration: none;
+    background: #D65E13;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-left: 8px;
+}
+
+.button_2_btn{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 22.5px;
+
+}
+
+.Primary_actions{
+    display: flex;
+    flex-direction: row;
+}
+
+.label_text_Addtocart{
+    font-family: "Avenir Next" , Helvetica, sans-serif;
+    font-size: 16px;
+
+}
+
+.cart{
+    margin-right: 8px;
+}

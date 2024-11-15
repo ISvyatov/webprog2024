@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: end;
+    box-sizing:border-box;
+
+    background: white;
+   
+    border-top-right-radius: 19px;
+    border-top-left-radius: 19px;
+    border: 1px solid black;
+    border-bottom: none;
+
+    height: 40px;
+    width: 360px;
+}
+
+.header_icon_svg{
+    margin-right: 16px;
+}
+

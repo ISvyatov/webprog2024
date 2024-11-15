@@ -1,0 +1,15 @@
+.media{
+    display: flex;
+    flex-direction: row;
+    border: none;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-top: none;
+    border-bottom: none;
+}
+
+.media_img{
+
+    height: 202px;
+}
+
