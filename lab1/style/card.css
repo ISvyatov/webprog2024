@@ -2,10 +2,10 @@
     background: white;
     margin: 0;
 }
-.blank{
+.card__blank{
     margin-top: 114px;
 }
-.cardgrid{
+.card__cardgrid{
     display: grid;
     grid-gap: auto;
 
@@ -35,7 +35,7 @@
 
 }
 
-.circle-img{
+.card__circle-img{
 
 width: 134px;
 height: 134px;
@@ -47,7 +47,7 @@ grid-column: 2/span 2;
 margin-left: 68px;
 }
 
-.alpanasap{
+.card__alpanasap{
 
     grid-row: 2/2;
     grid-column: 5/5;
@@ -59,7 +59,7 @@ margin-left: 68px;
 
 }
 
-.lng{
+.card__lng{
 
     grid-row: 3/3;
     grid-column: 5/5;
@@ -70,7 +70,7 @@ margin-left: 68px;
 
 }
 
-.card-txt-2{
+.card__txt-2{
     display: grid;
     padding-top: 60px;
     grid-row: 4/4;
@@ -84,7 +84,7 @@ margin-left: 68px;
 }
 
 
-.star{
+.card__star{
     grid-row: 5/5;
     grid-column: 3/6;
     display: grid;

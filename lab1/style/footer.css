@@ -15,7 +15,7 @@
     
 }
 
-.foot-navbar {
+.footer__navbar {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -34,13 +34,13 @@
     color: rgba(15, 31, 28, 1);
 }
 
-.foot-log{
+.footer__log{
     display: flex;
     align-items: center;
     margin-right: 100px;
 }
 
-.foot-login {
+.footer__login {
     display: flex;
     align-items: center;
     align-content: center;
@@ -53,12 +53,12 @@
 
     border-radius: 100px;
 }
-.foot-login:hover{
+.footer__login:hover{
     background-color: red;
 
 }
 
-.foot-signin {
+.footer__signin {
     display: flex;
 
     align-items: center;
@@ -68,13 +68,13 @@
     color: rgba(15, 31, 28, 1);
 }
 
-.foot-signin:hover{
+.footer__signin:hover{
     height: 37px;
     border-radius: 100px;
     background-color: gray;
 }
 
-.foot-logo {
+.footer__logo {
     display: flex;
     padding-left: 100px;
     align-items: center;
