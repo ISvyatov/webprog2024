@@ -1,0 +1,27 @@
+.body{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    margin-left: 48px;
+    margin-top: 33px;
+    width: 1440px;
+    height: 900px;
+    /* background-color: wheat; */
+}
+
+@media (max-width: 1440px) 
+{
+    .body {
+        flex-direction: column; /* Изменяем направление на колонку для мобильных */
+        margin-left: 0; /* Убираем отступы */
+        margin-top: 10px; /* Уменьшаем отступ сверху */
+        
+        
+        height: auto; /* Высота автоматически */
+
+    }
+}
+
+*{
+    box-sizing: border-box;
+}

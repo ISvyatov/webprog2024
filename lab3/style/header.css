@@ -1,0 +1,26 @@
+.header__logo{
+
+    color: rgba(10, 47, 182, 1);
+    margin-top: 33px;
+    width: 90px;
+    height: 35px;
+
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+@media (max-width: 1440px) {
+    .header__logo{
+        order: 1;
+        color: white; 
+        margin-left: 23px;
+
+    }    
+    .header{
+        background-color: rgba(10, 47, 182, 1);
+        width: 375px;
+        height: auto;
+    }
+}

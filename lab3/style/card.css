@@ -1,0 +1,277 @@
+/* --------------------------text----------------------------------------- */
+.card__main{
+    display: flex;
+    flex-direction: column;
+    background: white;
+}
+
+@media (max-width:1440px){  
+    .card__main{
+        margin-top: 62px;
+        order: 3;
+        width: 375px;
+    }
+}
+
+.register__main{
+    display: flex;
+    flex-direction: column;
+    width: 454px;
+    height: 717px;
+    margin-top: 36px;
+    margin-left: 26px;
+}
+
+.register__text{
+    margin-top: 50px;
+    font-family: "Open Sans";
+    font-size: 35px;
+    font-weight: 600;
+}
+
+@media (max-width: 1440px)
+{
+    .register__text{
+        font-weight: 600;
+        font-size: 28px;
+    }
+}
+
+.register__text_shadow{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(185, 184, 184, 1);
+    margin-top: 23px;
+    margin-bottom: 37px;
+    padding-right: 30px;
+}
+
+.card__register{
+    display: flex;
+    flex-direction: column;
+    
+}
+/* ------------------------------------------------------------------- */
+
+/* ------------------------- mail -------------------------------------- */
+.card__register_email{
+    display: flex;
+    flex-direction: column;
+}
+.card__register_mail_address{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Nunito Sans", Helvetica, sans-serif;
+}
+.label_user_mail{
+    margin-top: 18px;
+    border: none;
+
+    width: 399px;
+    height: 70px;
+    border: 0.5px solid rgba(177, 177, 177, 1) ;
+    border-bottom: 5px solid rgba(84, 226, 141, 1);
+    border-radius: 3px;
+}
+
+@media (max-width: 1440px) 
+{
+    .label_user_mail{
+        width: 329px;
+    }
+}
+
+/* ------------------------------------------------------------------- */
+
+@media (max-width: 1440px) 
+{
+    .register__main{
+        width: 332px;
+        margin-top: 0px;
+    }
+    .register__text{
+        margin-top: 0px;
+    }
+}
+/* --------------------------name------------------------------------- */
+.card__register_user_name{
+    display: flex;
+    flex-direction: column;
+}
+.card__register_user_name_text{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Nunito Sans", Helvetica, sans-serif;
+    margin-top: 20px;
+}
+.label_user_name{
+    margin-top: 18px;
+    width: 399px;
+    height: 70px;
+    border: 0.5px solid rgba(177, 177, 177, 1) ;
+    border-radius: 3px;
+}
+
+@media (max-width: 1440px) 
+{
+    .label_user_name{
+        width: 329px;
+    }
+}
+/* ------------------------------------------------------------------- */
+
+/* ------------------------password----------------------------------- */
+.card__register_user_password{
+    display: flex;
+    flex-direction: column;
+}
+.card__register_user_password_text{
+    font-size: 20px;
+    font-weight: 600;
+    width: 197px;
+    height: 31px;
+    font-family: "Nunito Sans", Helvetica, sans-serif;
+    margin-top: 20px;
+}
+
+.password__text_for_label{
+    display: flex;
+    flex-direction: row;
+    width: 399px;
+    height: 31px;
+
+    justify-content: space-between;
+}
+
+
+.password__text_strong{
+    /* display: flex; */
+    width: 108px;
+    height: 25px;
+    background-color: rgba(212, 255, 228, 1);
+    text-align: center;
+    color: rgba(0, 138, 39, 1);
+
+    align-content: center;
+
+    border-radius: 18px;
+    margin-left: 94px;
+    margin-top: 20px;
+
+    font-size: 12px;
+    font-weight: 400px;
+}
+
+@media (max-width: 1440px){
+    .password__text_for_label{
+        width: 332px;
+    }
+}
+
+
+.user_label_password_with_eye{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    margin-top: 18px;
+}
+
+.password_eye_box{
+width: 42px;
+height: 70px;
+border: 0.5px solid rgba(177, 177, 177, 1);
+border-left: none;
+border-top-right-radius: 3px;
+border-bottom-right-radius: 3px;
+
+}
+.password_eye{
+    
+    width: 22px;
+    height: 20px;
+    margin-top: 22px;
+
+}
+
+.label_user_password{
+    margin-top: 18px;
+    width: 357px;
+    height: 70px;
+    border: 0.5px solid rgba(177, 177, 177, 1) ;
+    border-right: none;
+    border-radius: 3px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+@media (max-width: 1440px) 
+{
+    .label_user_password{
+        width: 329px;
+    }
+}
+
+/* ------------------------------------------------------------------- */
+ 
+/* -------------------------forgot---------------------------------- */
+.card__password_remember{
+    display: flex;
+    flex-direction: row;
+    
+    margin-top: 22px;
+    width: 404px;
+
+}
+.check_member_text{
+    margin-left: 11px;
+    color: rgba(142, 142, 142, 1);
+    font-family: "Nunito Sans", Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.forgot_password_href{
+    text-decoration: none;
+    color: rgba(142, 142, 142, 1);
+    display: flex;
+    flex-direction: row;
+    margin-left: 139px;
+
+    font-family: "Nunito Sans", Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media (max-width: 1440px) 
+{
+    .forgot_password_href{
+        margin-left: 73px;
+    }
+}
+/* ------------------------------------------------------------------- */
+
+/* ------------------------Button---------------------------------- */
+.register__button_main{
+    margin-top: 48px;
+}
+
+.register__button{
+    width: 399px;
+    height: 70px;
+    border-radius: 6px;
+    background-color: rgba(10, 47, 182, 1);
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.register__button:hover{
+    background-color: blue;
+}
+
+@media (max-width: 1440px) 
+{
+    .register__button{
+        width: 332px;
+    }
+}
+/* ------------------------------------------------------------------- */

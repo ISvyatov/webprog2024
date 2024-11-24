@@ -1,5 +1,5 @@
 
-.Main_content {
+.main_content {
     display: flex; 
     flex-direction: column;
     background: white;
@@ -13,7 +13,7 @@
 }
 
 
-.Primary_content{
+.mrimary_content{
 
   width: 328px;
   height: 32px;
@@ -27,7 +27,7 @@
 
 } 
 
-.Content_information{
+.content_information{
     width: 268px;
     height: 32px;
     display: flex;
@@ -36,7 +36,7 @@
     font-size: 20px;  
 }
 
-.Content_price{
+.content_price{
     width: 41px;
     height: 32px;
     font-size: 16px;
@@ -46,7 +46,7 @@
     align-items: center;
 }
 
-.Description{
+.description{
     margin-left: 16px;
     margin-bottom: 16px;
     width: 328px;
@@ -56,7 +56,7 @@
     color: rgba(60, 64, 66, 1); 
 }
 
-.Rating{
+.rating{
     display: flex;
     flex-direction: row;
     width: 328px;
@@ -67,11 +67,11 @@
   
 }
 
-.Rating_score{
+.rating_score{
     margin-left: 4px;
 }
 
-.Rating_shadow{
+.rating_shadow{
     margin-left: 4px;
     font-weight: 400;
     color: rgba(85, 89, 94, 1);
