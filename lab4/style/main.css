@@ -1,0 +1,230 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    /* background: rgba(43, 43, 43, 1); */
+    /* margin-top: -5px; */
+
+}
+
+.main__info_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.main__nft_info{
+    display: flex;
+    flex-direction: column;
+    width: 605px;
+    height: 1049px;
+}
+
+.main__nft_info_text{
+    width: 605px;
+    height: 1149px;
+    /* margin-left: 115px; */
+}
+
+.main__nft_info_text_line_head{
+    font-size: 51px;
+    font-weight: 600;
+    font-family: "Work Sans";
+}
+
+.main__nft_info_text_line_under{
+    color: rgba(133, 133, 132, 1);
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Work Sans";
+}
+
+.main__nft_createdby{
+    margin-top: 30px;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: "Space Mono";
+    color: rgba(133, 133, 132, 1);
+ 
+}
+/* 
+.main__nft_info_text_addinfo{
+    display: flex;
+    flex-direction: column;
+} */
+
+
+
+.main__nft_createdby_orbitain{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    font-family: "Work Sans";
+    font-size: 22px;
+    font-weight: 600;
+    /* margin-bottom: 10px; */
+}
+
+.main__avatar{
+    margin-right: 10px;
+}
+
+.main__nft_info_text_description_description{
+    margin-top: 30px;
+    font-size: 22px;
+    font-weight: 700;
+    color: rgba(133, 133, 132, 1);
+    font-family: "Space Mono";
+}
+
+.main__nft_info_text_description_text{
+    font-family: "Work Sans";
+    font-weight: 400;
+    font-size: 22px;
+    margin-top: none;
+}
+
+
+.main__nft_info_details{
+    margin-top: 30px;
+    font-size: 22px;
+    font-weight: 700;
+    color: rgba(133, 133, 132, 1);
+    font-family: "Space Mono";
+}
+
+.main__details_links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Work Sans";
+    
+}
+.details__link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .details__links_globe{
+        margin-right: 10px;
+    }
+}
+
+.href{
+    text-decoration: none;
+    color: white;
+}
+
+.main__tags{
+    margin-top: 50px;
+    
+}
+
+.main__tags_tags{
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Work Sans";
+    color: rgba(133, 133, 132, 1);
+    margin-bottom: 10px;
+}
+
+.main__tags_links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.main__tags_animation{
+    width: 150px;
+    height: 46px;
+    background-color: rgba(59, 59, 59, 1);
+    border-radius: 20px;
+
+    align-content: center;
+    text-align: center;
+
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Work Sans";
+}
+
+.main__tags_illustration{
+    width: 175px;
+    height: 46px;
+    background-color: rgba(59, 59, 59, 1);
+    border-radius: 20px;
+
+    align-content: center;
+    text-align: center;
+
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Work Sans";
+}
+.main__tags_moon{
+    width: 110px;
+    height: 46px;
+    background-color: rgba(59, 59, 59, 1);
+    border-radius: 20px;
+
+    align-content: center;
+    text-align: center;
+
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Work Sans";
+}
+
+.main__nft_infotimer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 295px;
+    height: 237px;
+    background: rgba(59, 59, 59, 1);
+    border-radius: 20px;
+}
+
+.main__infotimer_text{
+    font-family: "Space Mono";
+    align-self: start;
+    margin-left: 30px;
+    font-size: 12px;
+    font-weight: 400;
+    color:rgba(255, 255, 255, 1);
+}
+
+.main__infotimer_timer{
+    display: flex;
+    flex-direction: row;
+    font-family: "Space Mono";
+    font-size: 38px;
+    font-weight: 700;
+    
+}
+
+
+.start_timer_button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Work Sans";
+    width: 235px;
+    height: 60px;
+    background-color: rgba(162, 89, 255, 1);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.start_timer_button:hover {
+    background-color: rgb(103, 36, 192);
+}

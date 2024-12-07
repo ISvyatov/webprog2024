@@ -1,0 +1,145 @@
+.main__footer{
+    background: rgba(59, 59, 59, 1);
+    display: flex;
+    flex-direction: column;
+    width: 100% -10px;
+    height: 334px;
+
+    padding-top: 40px;
+}
+.footer__upperline{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer__info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer__marketplace_info{
+    width: 327px;
+    height: 191px;
+}
+
+.footer__logo{
+    display: flex;
+    flex-direction: row;
+    width: 245px;
+    height: 32px;
+    align-items: center;
+    font-family: "Work Sans";
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.footer__text{
+    color:rgba(204, 204, 204, 1);
+    font-family: "Work Sans";
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.footer__explore{
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    height: 166px;
+}
+
+.footer__explore_text{
+    font-family: "Space Mono";
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+}
+
+.footer__explore_links_links{
+    display: flex;
+    flex-direction: column;
+    color:rgba(204, 204, 204, 1);
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-weight: 400;
+
+    margin-top: 20px;
+}
+
+.footer__subscribe{
+    width: 420px;
+    height: 184px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footer__subscribe_text{
+    font-family: "Space Mono";
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+}
+
+.footer__subscribe_info{
+    display: flex;
+    flex-direction: column;
+    color:rgba(204, 204, 204, 1);
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-weight: 400;
+
+    margin-top: 10px;
+}
+
+.footer__subscribe_form{
+    width: 420px;
+    height: 60px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.footer__subscribe_mail{
+    color: transparent;
+    box-sizing: border-box;
+    width: 240px;
+    height: 58px;
+    border: none;
+    color:rgba(43, 43, 43, 1);
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.footer__subscribe_button{
+    width: 176px;
+    box-sizing: border-box;
+    height: 60px;
+    border-radius: 20px;
+    background-color: rgba(162, 89, 255, 1);
+    color:white;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+}
+
+
+.footer__underline_text{
+    color: rgba(204, 204, 204, 1);
+    font-weight: 400;
+    font-size: 12px;
+    font-family: "Work Sans";
+    margin-top: 20px;
+    margin-left: 10%;
+}
+
+.footer__line{
+    width: 85%;
+    
+
+    height: 1px;
+    background-color: rgba(133, 133, 132, 1);
+    margin-top: 50px;
+    margin-left: 10%;
+}

@@ -1,0 +1,139 @@
+.main__card{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: space-around;
+    height: 1807px;
+
+}
+
+.card__section_headline{
+    display: flex;
+    flex-direction: row;
+    
+    width: 100%;
+    height: 60px;
+   
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card__text{
+    color: white;
+    font-size: 38px;
+    font-weight: 600;
+    font-family: "Work Sans";
+}
+
+.card__section_button{
+    color: white;
+}
+
+
+.card__section_button_btn{
+    display: flex;
+    flex-direction: row;
+
+    width: 267px;
+    height: 60px;
+
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgba(162, 89, 255, 1);
+    border-radius: 20px;
+    color: white;
+    
+    background: rgba(43, 43, 43, 1);
+
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Work Sans";
+}
+
+.nft_card{
+    display: flex;
+    flex-direction: column;
+    /* width: 330px; */
+    height: 469px;
+    max-width: 330px;
+    min-width: 260px;
+
+    background-color: rgba(59, 59, 59, 1);
+    border-radius: 20px;
+}
+
+.card_cardline{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    /* margin-top: 60px; */
+}
+.card__nft_img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card__nft_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card__nft_name{
+    font-family: "Work Sans";
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 20px;
+    width: 270px;
+    min-width: 230px;
+    height: 24px;
+    
+    color: white;
+
+}
+
+.card__nft_author{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    width: 270px;
+    min-width: 230px;
+    height: 24px;
+
+    font-family: "Space Mono";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.card__avatar{
+    margin-right: 12px;
+}
+
+.card__nft_price_info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 230px;
+    width: 270px;
+
+    margin-top: 30px;
+}
+
+.price_text{
+    color:rgba(133, 133, 132, 1);
+    font-family: "Space Mono";
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.price_cost{
+    color: white;
+    font-family: "Space Mono";
+    font-size: 16px;
+    font-weight: 400;
+}
