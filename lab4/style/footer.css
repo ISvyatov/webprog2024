@@ -1,26 +1,41 @@
-.main__footer{
+.footer__main{
     background: rgba(59, 59, 59, 1);
     display: flex;
     flex-direction: column;
-    width: 100% -10px;
+    width: auto;
     height: 334px;
 
     padding-top: 40px;
 }
+@media (max-width:1279px){
+    .footer__main{
+        /* display: none; */
+        height: auto;
+    }
+}
+
 .footer__upperline{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    width: auto;
 }
 
 .footer__info{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    width: auto;
+    height: auto;
+    margin-left: 10%;
 }
+
 
 .footer__marketplace_info{
     width: 327px;
-    height: 191px;
+    /* height: 191px; */
+    height: auto;
+
 }
 
 .footer__logo{
@@ -46,6 +61,15 @@
     flex-direction: column;
     width: 240px;
     height: 166px;
+    
+}
+@media (max-width:1279px){
+    .footer__explore{
+        margin-top: 30px;
+    }
+    .footer__subscribe{
+        margin-top: 30px;
+    }
 }
 
 .footer__explore_text{
@@ -67,10 +91,12 @@
 }
 
 .footer__subscribe{
-    width: 420px;
+    /* width: 420px; */
+    width: auto;
     height: 184px;
     display: flex;
     flex-direction: column;
+    /* margin-top: 30px; */
     
 }
 
@@ -91,6 +117,7 @@
 
     margin-top: 10px;
 }
+
 
 .footer__subscribe_form{
     width: 420px;
@@ -124,6 +151,71 @@
     border: none;
 }
 
+.footer__subscribe_for_phone{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer__subscribe_button2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 315px;
+    /* width: auto;
+    min-width: 300px;
+    max-width: 315px; */
+    box-sizing: border-box;
+    height: 46px;
+    border-radius: 20px;
+    background-color: rgba(162, 89, 255, 1);
+    color:white;
+    align-items: center;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    margin-top: 16px;
+}
+
+.footer__subscribe_button2_img{
+    margin-right: 12px;
+}
+
+@media (min-width:1279px) {
+    .footer__display_for_phone{
+        display: none;
+    }
+    
+}
+@media (max-width:1279px){
+    .footer__display_for_pc{
+        display: none;
+    }
+
+    .footer__subscribe{
+        height: auto;
+    }
+    .footer__subscribe_mail{
+        color: transparent;
+        padding-left: 20px;
+        box-sizing: border-box;
+        width: 315px;
+        height: 46px;
+        border: none;
+        color:rgba(43, 43, 43, 1);
+        border-radius: 20px;
+    }
+
+}
+
+@media (max-width:1279px){
+    .footer__info{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
+
 
 .footer__underline_text{
     color: rgba(204, 204, 204, 1);
@@ -137,9 +229,22 @@
 .footer__line{
     width: 85%;
     
-
     height: 1px;
     background-color: rgba(133, 133, 132, 1);
     margin-top: 50px;
     margin-left: 10%;
+}
+
+@media (max-width:1279px){
+    .footer__marketplace_info{
+        /* width: ; */
+        justify-content: space-around;
+    }
+    .footer__line{
+        margin-top: 30px;
+    }
+    .footer__footer{
+        width: auto;
+        height: 103px;
+    }
 }

@@ -3,6 +3,7 @@
     flex-direction: column;
     /* background: rgba(43, 43, 43, 1); */
     /* margin-top: -5px; */
+    height: auto;
 
 }
 
@@ -11,19 +12,46 @@
     flex-direction: row;
     justify-content: space-around;
     padding-top: 40px;
+    height: auto;
 }
 
 .main__nft_info{
     display: flex;
     flex-direction: column;
     width: 605px;
-    height: 1049px;
+    /* height: 1049px; */
+    height: auto;
 }
 
 .main__nft_info_text{
     width: 605px;
-    height: 1149px;
+    /* height: 1149px; */
+    height: auto;
     /* margin-left: 115px; */
+}
+
+@media (max-width:1279px)
+{
+    .main__nft_info{
+        width: 315px;
+    }
+    .main__nft_info_text{
+        width: 315px;
+    }
+}
+
+@media (min-width:1279px)
+{
+    .main__display_on_phone{
+        display: none;
+    }
+}
+
+@media (max-width:1279px){
+    .main__display_on_pc{
+
+        display: none;
+    }
 }
 
 .main__nft_info_text_line_head{
@@ -31,12 +59,25 @@
     font-weight: 600;
     font-family: "Work Sans";
 }
+@media (max-width:1279px){
+    .main__nft_info_text_line_head{    
+        font-size: 28px;
+        font-weight: 600;
+    }
+}
 
 .main__nft_info_text_line_under{
     color: rgba(133, 133, 132, 1);
     font-size: 22px;
     font-weight: 400;
     font-family: "Work Sans";
+}
+
+@media (max-width:1279px){
+    .main__nft_info_text_line_under{    
+        font-size: 16px;
+        font-weight: 400;
+    }
 }
 
 .main__nft_createdby{
@@ -47,13 +88,6 @@
     color: rgba(133, 133, 132, 1);
  
 }
-/* 
-.main__nft_info_text_addinfo{
-    display: flex;
-    flex-direction: column;
-} */
-
-
 
 .main__nft_createdby_orbitain{
     display: flex;
@@ -78,11 +112,30 @@
     font-family: "Space Mono";
 }
 
+@media (max-width:1279px)
+{
+    .main__nft_info_text_description_description{
+        font-size: 16px;
+        font-weight: 400;
+        font-family: "Space Mono";
+    }
+}
+
 .main__nft_info_text_description_text{
     font-family: "Work Sans";
     font-weight: 400;
     font-size: 22px;
     margin-top: none;
+}
+
+.main__nft_info_text_description_text_phone{
+    font-family: "Work Sans";
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: none;
+    /* width: 100% -30px; */
+    width: 315px;
+    height: auto;
 }
 
 
@@ -93,6 +146,15 @@
     color: rgba(133, 133, 132, 1);
     font-family: "Space Mono";
 }
+
+@media (max-width:1279px){
+    .main__nft_info_details{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Space Mono";
+    }
+}
+
 
 .main__details_links{
     display: flex;
@@ -120,8 +182,9 @@
 
 .main__tags{
     margin-top: 50px;
-    
+    width: 100%;
 }
+
 
 .main__tags_tags{
     font-size: 22px;
@@ -131,13 +194,24 @@
     margin-bottom: 10px;
 }
 
+@media (max-width:1279px){
+    .main__tags_tags{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Space Mono";
+    }
+}
+
 .main__tags_links{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-
+    width: auto;
 }
+
+
+
 
 .main__tags_animation{
     width: 150px;
@@ -227,4 +301,21 @@
 
 .start_timer_button:hover {
     background-color: rgb(103, 36, 192);
+}
+
+
+
+@media (max-width:1280px){
+.main__tags_tags{
+    width: 100%;
+}
+
+    .main__tags_links{
+        flex-direction: column;
+        align-items: start;
+        width: 100%;
+    }
+    .addspace{
+        margin-top: 20px;
+    }
 }
