@@ -165,6 +165,9 @@
     font-family: "Work Sans";
     
 }
+
+
+
 .details__link{
     display: flex;
     flex-direction: row;
@@ -172,6 +175,16 @@
 
     .details__links_globe{
         margin-right: 10px;
+    }
+}
+
+@media (max-width:1279px){
+    .main__details_links{
+        font-size: 16px;
+    }
+    .details__links_globe{
+        width: 24px;
+        height: 24px;
     }
 }
 
